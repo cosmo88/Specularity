@@ -8,7 +8,7 @@ inside After Effects, driven by the comp's own 3D lights or by in-effect light c
 It ships as a **Universal (arm64 + x86_64)** plugin, so it loads on Apple-Silicon AE 2024+
 without the "Intel-based application" warning.
 
-> **Inspired by [Stefan Minning's *Normality*]([https://www.minning.de](https://3dcg.net/#projects)).** Specularity is a
+> **Inspired by [Stefan Minning's *Normality*](https://3dcg.net/#projects).** Specularity is a
 > clean-room, original implementation written from scratch — it reproduces a similar feature
 > set and workflow but shares **no source code** with the original. All shading math is a
 > fresh implementation of standard, publicly documented computer-graphics techniques.
