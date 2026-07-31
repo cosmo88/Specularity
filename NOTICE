@@ -1,0 +1,23 @@
+Specularity
+===========
+
+Specularity is an original, clean-room implementation. It was inspired by, and
+reproduces a similar feature set to, Stefan Minning's *Normality* plugin for
+Adobe After Effects (Normality © 2009 Stefan Minning, https://www.minning.de).
+
+Specularity shares NO source code with Normality. It was not decompiled,
+disassembled, or derived from the original binary. All shading math is a fresh
+implementation of standard, publicly documented computer-graphics techniques
+(Lambert diffuse, Blinn-Phong specular, Schlick Fresnel, matcap/environment
+mapping, etc.). Names of observable UI features (parameter labels, display and
+blend modes) describe standard techniques and are used descriptively.
+
+PBR pass names and conventions (Source, BaseColor, Roughness, Metallic,
+Specular, Alpha, Depth, Normal) follow the Beeble PBR export format
+(https://beeble.ai) and are used for interoperability.
+
+The Adobe After Effects SDK is required to build this project and is NOT
+included or redistributed here. Obtain it from the Adobe Developer Console.
+
+Trademarks are the property of their respective owners. This project is not
+affiliated with or endorsed by Adobe, Stefan Minning, or Beeble.

@@ -1,0 +1,16 @@
+# Build output
+build/
+*.plugin
+*.o
+*.rsrc
+
+# Adobe AE SDK (symlink / local copy — NOT redistributable)
+vendor/
+
+# Render/test artifacts
+*.ppm
+*.png
+
+# macOS / editor / tooling cruft
+.DS_Store
+.claude/
