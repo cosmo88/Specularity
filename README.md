@@ -18,9 +18,9 @@ without the "Intel-based application" warning.
 
 ## Demo
 
-<video src="https://github.com/jpcastel88/Specularity/raw/main/docs/Specularity_Demo_v1.mp4" controls muted playsinline width="720"></video>
+[![Watch the Specularity demo — click to play](docs/demo_poster.jpg)](https://github.com/jpcastel88/Specularity/blob/main/docs/Specularity_Demo_v1.mp4)
 
-> ▶ [Watch the demo](docs/Specularity_Demo_v1.mp4) (if the inline player doesn't load).
+▶ **[Watch the demo](https://github.com/jpcastel88/Specularity/blob/main/docs/Specularity_Demo_v1.mp4)** — a 17-second walkthrough (click the image to play on GitHub).
 
 ---
 
