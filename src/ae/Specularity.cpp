@@ -420,6 +420,12 @@ static void ReadCompLights(PF_InData* in_data, std::vector<Light>& out) {
 			AEGP_ObjectType ot;
 			if (ls->AEGP_GetLayerObjectType(lyr, &ot) || ot != AEGP_ObjectType_LIGHT) continue;
 
+			// Respect the layer's video (eyeball) switch: a light that's turned off in the
+			// comp must not contribute. Only skip when we can positively read the flag as off.
+			AEGP_LayerFlags lflags = 0;
+			if (!ls->AEGP_GetLayerFlags(lyr, &lflags) && !(lflags & AEGP_LayerFlag_VIDEO_ACTIVE))
+				continue;
+
 			AEGP_LightType lt = AEGP_LightType_POINT;
 			lgt->AEGP_GetLightType(lyr, &lt);
 
