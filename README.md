@@ -16,6 +16,14 @@ without the "Intel-based application" warning.
 
 ---
 
+## Demo
+
+<video src="https://github.com/jpcastel88/Specularity/raw/main/docs/Specularity_Demo_v1.mp4" controls muted playsinline width="720"></video>
+
+> ▶ [Watch the demo](docs/Specularity_Demo_v1.mp4) (if the inline player doesn't load).
+
+---
+
 ## Features
 
 - **Relighting from a normal pass** — Lambert diffuse, Blinn-Phong specular, incidence
